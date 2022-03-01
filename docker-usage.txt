@@ -1,0 +1,7 @@
+  docker ps --> to see the name of container
+  docker commit django-todo-app-example_web_1 django-omarapp:latest --> adding a commit on the docker hub
+  docker login --> Authentificate to the hub 
+  docker tag django-omarapp:latest omarbenabdejlil/django-omarapp:latest
+  docker push omarbenabdejlil/django-omarapp:latest -> push the image ! 
+if u wanna pull it just type : docker pull docker pull omarbenabdejlil/django-omarapp:latest
+  docker run -it omarbenabdejlil/django-omarapp:latest
